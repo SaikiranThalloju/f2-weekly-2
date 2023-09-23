@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+ width: 100vw;
+ height: 76px;
+ background: rgba(0, 0, 0, 1);
+ color: white;
+ display: flex;
+ align-items: center;
+}
+input{
+    width: 80vw;
+    height: 65px;;
+}
+.btn{
+    width: 15vw;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.ser-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+ .btns>button{
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+} 
+table{
+width: 100vw;
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+font-size: 18px;
+font-weight: 200;
+}
+
+#search-button{
+width: 15vw;
+height: 65px;
+border: none;
+background-color: black;
+color: white;
+font-size: 18px;
+font-weight: 400;
+ }
+ #search{
+ font-size: 18px;
+font-weight: 400;
+ }
